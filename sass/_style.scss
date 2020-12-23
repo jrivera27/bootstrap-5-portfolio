@@ -1,0 +1,35 @@
+
+
+#header{
+    .fixed{
+        width: 35vw;
+        height: 100%;
+        position: fixed;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url('../assets/background9-img.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        >img {
+            width: 180px;
+        }
+
+        
+    }
+
+    @media(max-width:768px) {
+        .fixed{
+            position: relative;
+            width: 100%;
+            height: 80vh;
+        }
+    }
+
+
+}
+
+
